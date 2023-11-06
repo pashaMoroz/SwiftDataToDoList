@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		638C029B2A3CADCF00A9DFB1 /* UpdateProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638C029A2A3CADCF00A9DFB1 /* UpdateProductView.swift */; };
+		638C029E2A3CCE8200A9DFB1 /* Emodji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638C029D2A3CCE8200A9DFB1 /* Emodji.swift */; };
 		63E2981B2A3C9939005F6AC2 /* SwiftDataToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E2981A2A3C9939005F6AC2 /* SwiftDataToDoListApp.swift */; };
-		63E2981D2A3C9939005F6AC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E2981C2A3C9939005F6AC2 /* ContentView.swift */; };
+		63E2981D2A3C9939005F6AC2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E2981C2A3C9939005F6AC2 /* MainView.swift */; };
 		63E2981F2A3C993A005F6AC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E2981E2A3C993A005F6AC2 /* Assets.xcassets */; };
 		63E298222A3C993A005F6AC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E298212A3C993A005F6AC2 /* Preview Assets.xcassets */; };
 		63E2982C2A3C993B005F6AC2 /* SwiftDataToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E2982B2A3C993B005F6AC2 /* SwiftDataToDoListTests.swift */; };
 		63E298362A3C993B005F6AC2 /* SwiftDataToDoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E298352A3C993B005F6AC2 /* SwiftDataToDoListUITests.swift */; };
 		63E298382A3C993B005F6AC2 /* SwiftDataToDoListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E298372A3C993B005F6AC2 /* SwiftDataToDoListUITestsLaunchTests.swift */; };
+		63E298452A3C9975005F6AC2 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E298442A3C9975005F6AC2 /* Product.swift */; };
+		63E298472A3C9B8B005F6AC2 /* CreateProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E298462A3C9B8A005F6AC2 /* CreateProductView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		638C029A2A3CADCF00A9DFB1 /* UpdateProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProductView.swift; sourceTree = "<group>"; };
+		638C029D2A3CCE8200A9DFB1 /* Emodji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emodji.swift; sourceTree = "<group>"; };
 		63E298172A3C9939005F6AC2 /* SwiftDataToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDataToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E2981A2A3C9939005F6AC2 /* SwiftDataToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataToDoListApp.swift; sourceTree = "<group>"; };
-		63E2981C2A3C9939005F6AC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		63E2981C2A3C9939005F6AC2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		63E2981E2A3C993A005F6AC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63E298212A3C993A005F6AC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		63E298272A3C993B005F6AC2 /* SwiftDataToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDataToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +50,8 @@
 		63E298312A3C993B005F6AC2 /* SwiftDataToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDataToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E298352A3C993B005F6AC2 /* SwiftDataToDoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataToDoListUITests.swift; sourceTree = "<group>"; };
 		63E298372A3C993B005F6AC2 /* SwiftDataToDoListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataToDoListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		63E298442A3C9975005F6AC2 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		63E298462A3C9B8A005F6AC2 /* CreateProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProductView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		638C029C2A3CCE8200A9DFB1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				638C029D2A3CCE8200A9DFB1 /* Emodji.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		63E2980E2A3C9939005F6AC2 = {
 			isa = PBXGroup;
 			children = (
@@ -95,7 +111,11 @@
 			isa = PBXGroup;
 			children = (
 				63E2981A2A3C9939005F6AC2 /* SwiftDataToDoListApp.swift */,
-				63E2981C2A3C9939005F6AC2 /* ContentView.swift */,
+				63E2981C2A3C9939005F6AC2 /* MainView.swift */,
+				63E298462A3C9B8A005F6AC2 /* CreateProductView.swift */,
+				638C029A2A3CADCF00A9DFB1 /* UpdateProductView.swift */,
+				63E298442A3C9975005F6AC2 /* Product.swift */,
+				638C029C2A3CCE8200A9DFB1 /* Models */,
 				63E2981E2A3C993A005F6AC2 /* Assets.xcassets */,
 				63E298202A3C993A005F6AC2 /* Preview Content */,
 			);
@@ -257,7 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63E2981D2A3C9939005F6AC2 /* ContentView.swift in Sources */,
+				63E298452A3C9975005F6AC2 /* Product.swift in Sources */,
+				63E2981D2A3C9939005F6AC2 /* MainView.swift in Sources */,
+				638C029B2A3CADCF00A9DFB1 /* UpdateProductView.swift in Sources */,
+				638C029E2A3CCE8200A9DFB1 /* Emodji.swift in Sources */,
+				63E298472A3C9B8B005F6AC2 /* CreateProductView.swift in Sources */,
 				63E2981B2A3C9939005F6AC2 /* SwiftDataToDoListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
